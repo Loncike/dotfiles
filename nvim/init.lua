@@ -1,0 +1,2 @@
+require("loncike")
+print("hw")

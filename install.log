@@ -1,0 +1,9 @@
+[18:53:41 2024-04-11] FETCHING Version 2.36.4
+[18:53:41 2024-04-11] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.36.4/spicetify-2.36.4-linux-amd64.tar.gz
+[18:53:45 2024-04-11] EXTRACTING /home/loncike/.spicetify/spicetify.tar.gz
+[18:53:45 2024-04-11] SETTING EXECUTABLE PERMISSIONS TO /home/loncike/.spicetify/spicetify
+[18:53:45 2024-04-11] REMOVING /home/loncike/.spicetify/spicetify.tar.gz
+[18:53:45 2024-04-11] spicetify path already set in /home/loncike/.bashrc, continuing...
+[18:53:45 2024-04-11] spicetify path already set in /home/loncike/.bash_profile, continuing...
+[18:53:45 2024-04-11] spicetify v2.36.4 was installed successfully to /home/loncike/.spicetify
+[18:53:45 2024-04-11] Run 'spicetify --help' to get started

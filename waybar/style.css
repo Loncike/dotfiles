@@ -1,0 +1,117 @@
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: Material Design Icons, JetBrainsMono Nerd Font;
+    font-size: 13px;
+  }
+  
+  window#waybar {
+    background-color: #F2C9DC;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+  
+  window#waybar.hidden {
+    opacity: 0.5;
+  }
+  
+  #workspaces {
+    background-color: transparent;
+  }
+  
+  #workspaces button {
+    all: initial; /* Remove GTK theme values (waybar #1351) */
+    min-width: 0; /* Fix weird spacing in materia (waybar #450) */
+    padding: 6px 18px;
+    margin-right: 10px;
+    color: #393240;
+  }
+  
+  #workspaces button.active {
+    border-bottom: 5px #BF8FBC solid;
+    color: white;
+  }
+  
+  #workspaces button:hover {
+   box-shadow: inherit;
+   text-shadow: inherit;
+   color: #393240;
+   background-color: #8881B5;
+  }
+  
+  #workspaces button.urgent {
+    background-color: #f38ba8;
+  }
+  
+  #memory,
+  #custom-power,
+  #pulseaudio,
+  #network,
+  #clock,
+  #tray, #cpu, #disk, #temperature, #custom-weather {
+    margin-right: 3px;
+    padding: 6px 12px;
+    color: #393240;
+  }
+  
+  #custom-power {
+    margin-right: 6px;
+  }
+  
+  #custom-logo {
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 8px 0px 0px 8px;
+    color: #1793d1;
+  }
+  
+
+  #cpu{
+    border-bottom: 5px #BF8FBC solid;
+  }
+  #temperature{
+    border-bottom: 5px #BF8FBC solid;
+  }
+  #memory{
+    border-bottom: 5px #BF8FBC solid;
+  }
+  #disk{
+    border-bottom: 5px #BF8FBC solid;
+  }
+  
+  
+  #pulseaudio {
+    border-bottom: 5px #BF8FBC solid;
+  }
+  
+  #network {
+    border-bottom: 5px #BF8FBC solid;
+    padding-right: 17px;
+  }
+  
+  #clock, #custom-weather{
+    font-family: JetBrainsMono Nerd Font;
+    border-bottom: 5px #BF8FBC solid;
+  }
+  
+  #custom-power {
+    border-bottom: 5px #BF8FBC solid;
+  }
+  
+  #tray {
+    border-bottom: 5px #BF8FBC solid;
+  }
+  
+  tooltip {
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #131822;
+  }
+  
+  tooltip label {
+  padding: 5px;
+  background-color: #131822;
+  }

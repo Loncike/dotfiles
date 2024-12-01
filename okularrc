@@ -1,0 +1,21 @@
+[Desktop Entry]
+FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/noPhoneSchool/Indokolás.pdf
+File2[$e]=$HOME/Downloads/A-Rádiótechnika-Évkönyve-1983.pdf
+File3[$e]=$HOME/Downloads/OH-MAT10TB__75o.pdf
+File4[$e]=$HOME/Downloads/Motivacios_level_BV.pdf
+Name1[$e]=Indokolás.pdf
+Name2[$e]=A-Rádiótechnika-Évkönyve-1983.pdf
+Name3[$e]=OH-MAT10TB__75o.pdf
+Name4[$e]=Motivacios_level_BV.pdf
